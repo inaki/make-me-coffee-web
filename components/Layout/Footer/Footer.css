@@ -1,0 +1,47 @@
+.root {
+  height: 275px;
+  background: #8A572E;
+  color: #fff;
+}
+
+.wrapper {
+  height: 100%;
+  opacity: 0.4;
+  background-image: url('./footerTile.png');
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px 15px;
+  text-align: center;
+}
+
+.text {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.textMuted {
+  composes: text;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.spacer {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.text,
+.link {
+  padding: 2px 5px;
+  font-size: 1em;
+}
+
+.link,
+.link:active,
+.link:visited {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: rgba(255, 255, 255, 1);
+}

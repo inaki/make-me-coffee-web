@@ -1,0 +1,55 @@
+.root {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 40vh;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 0 40px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40vh;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 235px;
+  height: 270px;
+}
+
+.mugCircle, .kettleCircle, .chemexCircle {
+  border: 2px solid #F9D5CF;
+  width: 15rem;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.textInstructions {
+  display: flex;
+  width: 15rem;
+}
+
+.numberText {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.description {
+  flex: 1;
+  font-size: 1.4rem;
+}
