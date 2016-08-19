@@ -12,6 +12,8 @@
   width: 300px;
   font-size: 1.75em; /* ~28px */
   line-height: 3rem;
+  opacity: 0;
+  margin: 50px;
 }
 
 .brandTxt1 {
@@ -25,10 +27,18 @@
   font-weight: 600;
 }
 
+.phoneContainer {
+  position: relative;
+  background: black;
+  width: 100%;
+  height: 100%;
+}
+
 .phone {
-  position: absolute;
-  left: 38%;
-  margin-top: 12rem;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 50rem;
   z-index: 999;
 }
 
@@ -36,31 +46,33 @@
   position: absolute;
   right: 0;
   top: 40vh;
-  right: -170px;
+  right: -600px;
   z-index: 888;
 }
 
 .mountainTwo {
   position: absolute;
-  right: 0;
   top: 55vh;
-  left: -300px;
+  left: -500px;
   z-index: 877;
 }
 
 .mountainThree {
   position: absolute;
   top: 60vh;
-  left: 300px;
+  right: -500px;
   z-index: 899;
 }
 
 .tree {
   position: absolute;
-  z-index: 777;
+  left: 5%;
+  top: -500px;
+  z-index: 950;
 }
 
 .cloud {
   position: absolute;
+  left: -200px;
   z-index: 977;
 }

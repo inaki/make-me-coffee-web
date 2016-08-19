@@ -1,7 +1,7 @@
 .root {
   padding-left: 20px;
   padding-right: 20px;
-  height: 40vh;
+  height: 60vh;
 }
 
 .bold {
@@ -17,7 +17,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 40vh;
+  height: 60vh;
 }
 
 .step {
