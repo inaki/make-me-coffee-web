@@ -1,7 +1,23 @@
+@custom-media  --sm (width <= 767px);
+@custom-media  --omd screen and (959px >= width >= 768px) and (device-aspect-ratio: 12/16); /* targets tablet only */
+@custom-media  --md (min-width: 768px) and (max-width: 992px);
+/*@custom-media  --lmd (width <= 959px);
+@custom-media  --lg (width >= 960px);
+@custom-media  --xl (width >= 1280px);*/
+
 .root {
   padding-left: 20px;
   padding-right: 20px;
   height: 60vh;
+
+  @media (--sm) {
+    height: 100vh;
+  }
+
+  @media (--md) {
+    height: 40vh;
+  }
+
 }
 
 .bold {
@@ -10,7 +26,15 @@
 
 .container {
   margin: 0 auto;
+  width: 70vw;
   padding: 0 0 40px;
+
+  @media (--md) {
+    width: 95vw;
+    height: 40vh;
+    padding: 0;
+    margin: 0;
+  }
 }
 
 .steps {
@@ -18,6 +42,16 @@
   justify-content: space-around;
   align-items: center;
   height: 60vh;
+
+  @media (--sm) {
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  @media (--md){
+    width: 100%;
+    height: 40vh;
+  }
 }
 
 .step {
@@ -26,30 +60,40 @@
   justify-content: space-between;
   align-items: center;
   width: 235px;
-  height: 270px;
+  height: 35vh;
+
+  @media (--sm) {
+    height: 28vh;
+  }
+
+  @media (--md) {
+    justify-content: space-around;
+  }
 }
 
 .mugCircle, .kettleCircle, .chemexCircle {
-  border: 2px solid #F9D5CF;
+  background-color: #F9D5CF;
   width: 15rem;
   height: 15rem;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 100%;
-}
 
-.textInstructions {
-  display: flex;
-  width: 15rem;
-}
-
-.numberText {
-  font-size: 1.3rem;
-  font-weight: 600;
+  @media (--sm) {
+    width: 10rem;
+    height: 10rem;
+  }
 }
 
 .description {
-  flex: 1;
+  text-align: center;
   font-size: 1.4rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.2rem;
+
+  @media (--sm) {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
 }

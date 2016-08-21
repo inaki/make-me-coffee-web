@@ -1,47 +1,58 @@
+@custom-media  --sm (width <= 767px);
+@custom-media  --omd screen and (959px >= width >= 768px) and (device-aspect-ratio: 12/16); /* targets tablet only */
+@custom-media  --md (min-width: 768px) and (max-width: 992px);
+/*@custom-media  --lmd (width <= 959px);
+@custom-media  --lg (width >= 960px);
+@custom-media  --xl (width >= 1280px);*/
+
 .root {
   height: 275px;
   background: #8A572E;
   color: #fff;
+
+  @media (--sm) {
+    height: 80vh;
+  }
 }
 
 .wrapper {
   height: 100%;
-  opacity: 0.4;
   background-image: url('./footerTile.png');
 }
 
 .container {
-  margin: 0 auto;
-  padding: 20px 15px;
-  text-align: center;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  @media (--sm) {
+    flex-direction: column;
+  }
 }
 
-.text {
-  color: rgba(255, 255, 255, 0.5);
+.credits {
+  align-self: flex-end;
 }
 
-.textMuted {
-  composes: text;
-  color: rgba(255, 255, 255, 0.3);
+.appleStore {
+  width: 200px;
 }
 
-.spacer {
-  color: rgba(255, 255, 255, 0.3);
+.artists {
+  display: flex;
+  justify-content: space-around;
+
+  @media (--sm) {
+    flex-direction: column;
+  }
 }
 
-.text,
-.link {
-  padding: 2px 5px;
-  font-size: 1em;
-}
+.artist {
+  margin: 50px;
 
-.link,
-.link:active,
-.link:visited {
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-}
-
-.link:hover {
-  color: rgba(255, 255, 255, 1);
+  @media (--sm) {
+    margin: 25px;
+  }
 }

@@ -1,13 +1,26 @@
+@custom-media  --sm (width <= 767px);
+@custom-media  --omd screen and (959px >= width >= 768px) and (device-aspect-ratio: 12/16); /* targets tablet only */
+@custom-media  --md (min-width: 768px) and (max-width: 992px);
+/*@custom-media  --lmd (width <= 959px);
+@custom-media  --lg (width >= 960px);
+@custom-media  --xl (width >= 1280px);*/
+
 .root {
+  width: 100vw;
   height: 80vh;
   background: #F9D5CF;
   color: #F9B4A8;
   position: relative;
   overflow: hidden;
-  border-bottom: 2px solid #08BD94;
+  border-bottom: 0.005rem solid #ccc;
+
+  @media (--md){
+    height: 60vh;
+  }
 }
 
 .brand {
+  position: relative;
   color: #F9B4A8;
   width: 300px;
   font-size: 1.75em; /* ~28px */
@@ -17,19 +30,19 @@
 }
 
 .brandTxt1 {
-  font-size: 2.3rem;
+  font-size: 2.4rem;
   font-weight: 400;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.4rem;
 }
 
 .brandTxt2 {
-  font-size: 4rem;
+  font-size: 4.3rem;
   font-weight: 600;
 }
 
 .phoneContainer {
   position: relative;
-  background: black;
+  background-color: #58E2C2;
   width: 100%;
   height: 100%;
 }
@@ -40,39 +53,86 @@
   margin: 0 auto;
   margin-top: 50rem;
   z-index: 999;
+
+  @media (--sm) {
+    width: 70%;
+    margin-top: 55`rem;
+  }
 }
 
 .mountainOne {
   position: absolute;
   right: 0;
-  top: 40vh;
+  width: 50vw;
+  bottom: -150px;
   right: -600px;
   z-index: 888;
 }
 
 .mountainTwo {
   position: absolute;
-  top: 55vh;
+  bottom: -300px;
   left: -500px;
   z-index: 877;
 }
 
 .mountainThree {
   position: absolute;
-  top: 60vh;
+  bottom: -400px;
   right: -500px;
   z-index: 899;
 }
 
-.tree {
+.treeOneStyle, .treeTwoStyle, .treeThreeStyle {
   position: absolute;
-  left: 5%;
-  top: -500px;
   z-index: 950;
 }
 
-.cloud {
+.treeOneStyle {
+  left: 80vw;
+  top: -75px;
+
+  @media (--md){
+    left: 85vw;
+    top: 145px;
+  }
+}
+
+.treeTwoStyle {
+  left: 70vw;
+  top: 35px;
+
+  @media (--md){
+    top: 45px;
+  }
+}
+
+.treeThreeStyle {
+  left: 20vw;
+  top: -85px;
+
+  @media (--md){
+    left: 10vw;
+  }
+}
+
+.cloudOne, .cloudTwo, .cloudThree {
   position: absolute;
-  left: -200px;
+  display: table;
   z-index: 977;
+}
+
+.cloudOne {
+  top: 300px;
+  left: -200px;
+}
+
+.cloudTwo {
+  top: 400px;
+  left: 45%;
+}
+
+.cloudThree {
+  top: 130px;
+  left: -200px;
 }

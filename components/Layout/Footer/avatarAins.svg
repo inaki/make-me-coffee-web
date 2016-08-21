@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="174px" height="174px" viewBox="0 0 174 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>avatar</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="87" cy="87" r="87"></circle>
+        <path d="M41.5,94 C64.4198171,94 83,65.9573832 83,40 C83,14.0426168 64.4198171,0 41.5,0 C18.5801829,0 0,14.0426168 0,40 C0,65.9573832 18.5801829,94 41.5,94 Z" id="path-3"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.752941176   0 0 0 0 0.580392157   0 0 0 0 0.294117647  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="avatar">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+            <g id="avatarAins" mask="url(#mask-2)">
+                <g transform="translate(29.000000, 11.000000)">
+                    <path d="M11.9609375,41.1601562 L12.0507812,79.8867187 C12.0507812,79.8867187 13.1640625,104.095703 0.578125,98.1289062 C6.8046875,110.820312 18.5244141,110.820312 18.5244141,110.820312 C59.2236328,120.668945 75.9179688,106.238281 75.9179688,106.238281 C75.9179688,106.238281 77.1484375,109.676758 89.9335938,109.676758 C102.71875,109.676758 109.120117,100.066406 109.120117,100.066406 C109.120117,100.066406 97.5263672,106.490234 97.5263672,79.8867187 C97.5263672,53.2832031 102.71875,37.046875 102.71875,37.046875 L11.9609375,41.1601562 Z" id="Path-10" fill="#C0944B"></path>
+                    <rect id="Rectangle-2" fill="#FBCC94" x="47" y="76" width="19" height="66"></rect>
+                    <g id="Group" stroke-width="1" fill="none" transform="translate(56.000000, 136.000000) scale(-1, 1) translate(-56.000000, -136.000000) translate(21.000000, 109.000000)">
+                        <path d="M0.113525391,13 C0.113525391,13 8.19995117,29.0146484 8.19995117,52.8613281 C2.25512695,52.8613281 0.674072266,52.8613281 0.674072266,52.8613281 L0.113525391,13 Z" id="Path-11" stroke="#4A4A4A" fill="#000000" transform="translate(4.156738, 32.930664) scale(-1, 1) translate(-4.156738, -32.930664) "></path>
+                        <path d="M34.8352197,1.83769535 C31.6807103,1.81530102 28.2785197,1.34488468 25.122041,0 C15.5107129,2.98730469 8.64791995,11.34375 8.64791995,11.34375 L7.9018262,53.2871094 L34.4727148,53.2871094 L34.8352197,53.2871094 L35.1977246,53.2871094 L61.7686132,53.2871094 L61.0225195,11.34375 C61.0225195,11.34375 54.1597265,2.98730469 44.5483984,0 C41.3919197,1.34488468 37.9897291,1.81530102 34.8352197,1.83769535 Z M61.4135742,12.9316406 C61.4135742,12.9316406 69.5,28.9462891 69.5,52.7929688 C63.5551758,52.7929688 61.9741211,52.7929687 61.9741211,52.7929687 L61.4135742,12.9316406 Z" id="Combined-Shape" stroke="#4A4A4A" stroke-width="0.5" fill="#000000"></path>
+                    </g>
+                    <g id="jewerly" stroke-width="1" fill="none" transform="translate(19.000000, 72.000000)">
+                        <path d="M27.328125,37.1049805 C27.328125,37.1049805 25.4560549,62.8105469 36.7050781,62.8105469 C47.9541013,62.8105469 47.4262695,36.8989258 47.4262695,36.8989258" id="Path-12" stroke="#BEA172" stroke-width="0.2"></path>
+                        <polygon id="Triangle" fill="#BEA172" transform="translate(31.500000, 62.000000) rotate(221.000000) translate(-31.500000, -62.000000) " points="31.5 61 33 63 30 63"></polygon>
+                        <polygon id="Triangle" fill="#BEA172" transform="translate(34.497747, 63.654142) rotate(195.000000) translate(-34.497747, -63.654142) " points="34.4977468 62.6541422 35.9977468 64.6541422 32.9977468 64.6541422"></polygon>
+                        <polygon id="Triangle" fill="#BEA172" transform="translate(38.175133, 63.860022) rotate(168.000000) translate(-38.175133, -63.860022) " points="38.1751331 62.8600225 39.6751331 64.8600225 36.6751331 64.8600225"></polygon>
+                        <polygon id="Triangle" fill="#BEA172" transform="translate(41.408446, 62.489478) rotate(146.000000) translate(-41.408446, -62.489478) " points="41.4084456 61.489478 42.9084456 63.489478 39.9084456 63.489478"></polygon>
+                        <path d="M1.94580078,0.228027344 L2.10888672,7.21582031" id="Path-13" stroke="#BEA172" stroke-width="0.5"></path>
+                        <path d="M74.9458008,0.228027344 L75.1088867,7.21582031" id="Path-13" stroke="#BEA172" stroke-width="0.5"></path>
+                    </g>
+                    <g id="face" stroke-width="1" fill="none" transform="translate(16.000000, 5.000000)">
+                        <g id="Oval">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            <use fill="#FBCC94" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        </g>
+                        <ellipse id="Oval-2" fill="#FBCC94" cx="77.5" cy="60.5" rx="5.5" ry="8.5"></ellipse>
+                        <ellipse id="Oval-2" fill="#FBCC94" cx="5.5" cy="60.5" rx="5.5" ry="8.5"></ellipse>
+                        <ellipse id="Oval-5" fill="#FEAF91" cx="26" cy="62.5" rx="6" ry="2.5"></ellipse>
+                        <ellipse id="Oval-5" fill="#FEAF91" cx="56" cy="62.5" rx="6" ry="2.5"></ellipse>
+                        <path d="M59.7723924,58 C59.9197944,57.5308316 60,57.0259531 60,56.5 C60,54.0147186 58.209139,52 56,52 C53.790861,52 52,54.0147186 52,56.5 C52,57.0259531 52.0802056,57.5308316 52.2276076,58 C52.7767228,56.2522114 54.2583749,55 56,55 C57.7416251,55 59.2232772,56.2522114 59.7723924,58 Z" id="Combined-Shape" fill="#8B572A"></path>
+                        <path d="M29.7723924,58 C29.9197944,57.5308316 30,57.0259531 30,56.5 C30,54.0147186 28.209139,52 26,52 C23.790861,52 22,54.0147186 22,56.5 C22,57.0259531 22.0802056,57.5308316 22.2276076,58 C22.7767228,56.2522114 24.2583749,55 26,55 C27.7416251,55 29.2232772,56.2522114 29.7723924,58 Z" id="Combined-Shape" fill="#8B572A"></path>
+                        <g id="kiss" transform="translate(36.000000, 77.000000)">
+                            <path d="M1,1.13356336 C1,1.13356336 4.19025628,4.31836807 7.32000017,1" id="Path-14" stroke="#F20303" stroke-width="4"></path>
+                            <path d="M0,0.675830236 C0,0.675830236 4.19983078,4.86848427 8.31999969,0.5" id="Path-14" stroke="#000000"></path>
+                        </g>
+                        <path d="M17,45.6512357 C17,45.6512357 23.7050781,39.9256499 30.0400391,45.3026029" id="Path-4" stroke="#8B572A" stroke-width="0.5" stroke-linecap="round" transform="translate(23.520020, 44.325618) rotate(-5.000000) translate(-23.520020, -44.325618) "></path>
+                        <path d="M51,45.6512357 C51,45.6512357 57.7050781,39.9256499 64.0400391,45.3026029" id="Path-4" stroke="#8B572A" stroke-width="0.5" stroke-linecap="round" transform="translate(57.520020, 44.325618) scale(-1, 1) rotate(-5.000000) translate(-57.520020, -44.325618) "></path>
+                    </g>
+                    <path d="M72.9980469,17.3164062 C72.9980469,17.3164062 69.9980473,46.75 12.0214844,46.75 C8.29687494,31.53125 17.0664088,0.85546875 57.3613281,0.85546875 C92.4061,0.85546875 101.634765,19.6464844 103.599609,41.3496094 C103.599609,41.3496094 103.599609,44.1787109 108.567383,41.3496094 C93.0078123,58.9521484 72.9980469,17.3164062 72.9980469,17.3164062 Z" id="Path-9" fill="#C0944B"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

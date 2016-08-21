@@ -1,10 +1,10 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
 import s from './Home.css';
 import Mug from './mug.svg';
 import KettleSpoon from './kettleSpoon.svg';
 import Chemex from './chemex.svg';
 
-const title = 'Make Me Coffee';
+// const title = 'Make Me Coffee';
 
 class Home extends React.Component {
   render() {
@@ -14,29 +14,26 @@ class Home extends React.Component {
           <div className={s.steps}>
             <div className={s.step}>
               <div className={s.mugCircle}>
-                <Mug/>
+                <Mug />
               </div>
-              <div className={s.textInstructions}>
-                <div className={s.numberText}>1. </div>
-                <div className={s.description}>&nbsp;Enter how much &nbsp;<span className={s.bold}>Coffee</span> you want.</div>
+              <div className={s.description}>
+                Enter how much <br /><span className={s.bold}>coffee</span> you want.
               </div>
             </div>
             <div className={s.step}>
               <div className={s.kettleCircle}>
-                <KettleSpoon/>
+                <KettleSpoon />
               </div>
-              <div className={s.textInstructions}>
-                <div className={s.numberText}>2. </div>
-                <div className={s.description}>&nbsp;We'll tell you the &nbsp;<span className={s.bold}>measurements.</span></div>
+              <div className={s.description}>
+                We'll tell you the <span className={s.bold}>measurements.</span>
               </div>
             </div>
             <div className={s.step}>
               <div className={s.chemexCircle}>
-                <Chemex/>
+                <Chemex />
               </div>
-              <div className={s.textInstructions}>
-                <div className={s.numberText}>3. </div>
-                <div className={s.description}>&nbsp;Enjoy your delicious &nbsp;<span className={s.bold}>Coffee.</span></div>
+              <div className={s.description}>
+                Enjoy your <br />delicious <span className={s.bold}>coffee.</span>
               </div>
             </div>
           </div>
